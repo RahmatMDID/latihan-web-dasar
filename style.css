@@ -16,34 +16,31 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 /* Navigation Menu */
 nav {
-    background: #333;
+    background: #0baddf;
     color: #fff;
     padding: 1rem 0;
-    background-color: #3a3636;
 }
 
 nav .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(134, 128, 128);
+    background-color: #0baddf;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: rgb(134, 128, 128);
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    background-color: rgb(134, 128, 128);
 }
 
 .nav-links li {
@@ -51,7 +48,7 @@ nav .container {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -62,7 +59,6 @@ nav .container {
 .social-icons {
     list-style: none;
     display: flex;
-    background-color: rgb(134, 128, 128);
 }
 
 .social-icons li {
@@ -85,7 +81,7 @@ nav .container {
 #profile {
     text-align: center;
     padding: 2rem 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 .profile-photo {
@@ -93,7 +89,7 @@ nav .container {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #22bd03;
+    border: 5px solid #1ad138;
 }
 
 #profile h1 {
@@ -108,7 +104,7 @@ nav .container {
 /* About Me Section */
 #about {
     padding: 2rem 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 #about h2 {
@@ -166,14 +162,13 @@ progress::-webkit-progress-value {
 #portfolio {
     min-height: 100vh; /* Ensures the section takes up at least one full viewport height */
     padding: 2rem 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 #portfolio h2 {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
-    background-color: rgb(134, 128, 128);
 }
 
 .portfolio-container {
@@ -220,7 +215,6 @@ progress::-webkit-progress-value {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
-    background-color: rgb(134, 128, 128);
 }
 
 .blog-container {
@@ -270,14 +264,13 @@ progress::-webkit-progress-value {
 #contact {
     min-height: 100vh; /* Ensures the section takes up at least one full viewport height */
     padding: 2rem 0;
-    background: #fff;
+    background: #ffffff;
 }
 
 #contact h2 {
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
-    background-color: rgb(134, 128, 128);
 }
 
 .contact-row {
